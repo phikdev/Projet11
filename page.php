@@ -8,8 +8,11 @@
  * @subpackage Twenty_Twenty_One
  * @since Twenty Twenty-One 1.0
  */
+    // Appeler le header
+    get_header();
 
 
-
-
-defined( 'ABSPATH' ) || exit;
+    defined( 'ABSPATH' ) || exit;
+    // Appeler le footer
+    get_footer();
+?>
